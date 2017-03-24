@@ -16,6 +16,7 @@ $(function(){
             break;
         case "www.baidu.com":
             fuckBaidu();
+            //翻页时通过ajax加载数据，需要监听页面变化。暂未找到更好的方式。
             var title = $('title');
             title.bind('DOMNodeInserted', function(e) {
                 setTimeout(function(){
@@ -24,7 +25,7 @@ $(function(){
             });
            break;
         default:
-            console.log("Adblocker暂未匹配当前网站。。。");
+            console.log("Adblocker暂未匹配当前网站，请前往https://github.com/umgsai/adblocker反馈。");
             break;
     }
 })
