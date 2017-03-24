@@ -24,7 +24,7 @@ $(function(){
             });
            break;
         default:
-            console.log("该网站暂未匹配。。。");
+            console.log("Adblocker暂未匹配当前网站。。。");
             break;
     }
 })
