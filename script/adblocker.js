@@ -25,7 +25,7 @@ $(function(){
             });
            break;
         default:
-            console.log("Adblocker暂未匹配当前网站，请前往https://github.com/umgsai/adblocker反馈。");
+            console.log("Adblocker暂未匹配当前网站，如有需求请前往https://github.com/umgsai/adblocker反馈。");
             break;
     }
 })
