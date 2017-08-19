@@ -2,7 +2,7 @@
   "name": "Adblocker",
   "version": "1.0",
   "manifest_version": 2,
-  "description": "轻量级广告拦截插件",
+  "description": "轻量级广告拦截插件，可作为Adblock Plus的补充",
   "icons": {
     "16": "image/basketball.png",
     "48": "image/basketball.png"
