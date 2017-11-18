@@ -12,7 +12,7 @@ $(function(){
         case "www.bing.com":
         case "cn.bing.com":
             //jQuery(".b_ad").css("display", "none");
-            jQuery(".b_ad").remove();
+            jQuery(".b_ad").remove();//移除网页上的广告内容
             break;
         case "www.baidu.com":
             fuckBaidu();
